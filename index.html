@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            Cutoff Calculator
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <!----image--------------------------------------------------->
+       <img src="1.png" alt="Education" height="100%" width="100%">
+
+            <!--heading----------------------------------------------->
+            <div>
+                <h1 class="H"> &nbsp; Engineering Cutoff Calculator   &nbsp;</h1>
+            </div>
+
+            <!---maths mark-------------------------------------------->
+            <div class="Fill">
+                <label for="Maths"> &nbsp; &nbsp; Maths Mark  &nbsp; &nbsp;</label> &nbsp; &nbsp;
+                <input type="number" id="m" size="25px" maxlength="5" placeholder="Enter your Maths mark">
+            </div>
+
+            <!--------physics mark--------------------------------------->
+            <div class="Fill2">
+                <label for="Physics">  &nbsp; &nbsp;Physics Mark  &nbsp; &nbsp;</label> &nbsp; &nbsp;
+                <input type="number" id="p" size="25px" maxlength="5" placeholder="Enter your Physics mark">
+            </div>
+
+            <!--------Che mark------------------------------------------->
+            <div class="Fill3">
+                <label for="Chemistry"> &nbsp; &nbsp;Chemistry Mark  &nbsp; &nbsp;</label> &nbsp; &nbsp;
+                <input type="number" id="c" size="25px" maxlength="5" placeholder="Enter your Chemistry mark">
+            </div>
+
+            <!--------------Cutoff label------------------------------------->
+            <div class="Fill4">
+                <label for="Cutoff"> &nbsp; &nbsp;Your cutoff is &nbsp; &nbsp;</label> &nbsp; &nbsp;
+                <input type="number" id="a" height="40px" width="40px" maxlength="5" placeholder="Your cut of is ">
+            </div>
+
+            <!--------------Button label------------------------------------->
+            <div class="sub">
+                <button type="button" id="submit1" value="Cutoff" onclick="s1()">Cutoff</button>
+            </div>
+
+            <!----------------span id declare----------------------------------->
+            <span id = "result"></span>
+
+    </div> 
+           <!----------------------------- HTML code end ------------------------------------------------------>   
+
+
+                    <!------------------------script part------------------>
+<script>
+function s1()
+{
+        var num1 = document.getElementById("m").value;
+        var num2 = document.getElementById("p").value;
+        var num3 = document.getElementById("c").value;
+       var a= (num1/2)+ (num2/4)+(num3/4);
+        document.getElementById("a").value=a;
+}
+</script>
+                  <!-----------------script part end--------------------------->
+
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+/* Container part*/
+.container
+{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+.h
+{
+  background-color:blue;
+  size: 20px;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 5px solid white;
+}
+/* INPUT AND LABEL PART */
+.fill label
+{
+  background-color: black;
+  border: 5px solid white;
+  position: absolute;
+  top: 24%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  font-size: xx-large;
+}
+.fill input
+{
+  
+  position: absolute;
+  top: 24%;
+  left: 49%;
+  transform: translate(-50%,-50%);
+  font-size: xx-large;
+}
+.fill2 label
+{
+  background-color: black;
+  border: 5px solid white;
+  position: absolute;
+  top: 48%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  font-size: xx-large;
+}
+.fill2 input
+{
+  
+  position: absolute;
+  top: 48%;
+  left: 49%;
+  transform: translate(-50%,-50%);
+  font-size: xx-large;
+}
+.fill3 label
+{
+  background-color: black;
+  border: 5px solid white;
+  position: absolute;
+  top: 72%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  font-size: xx-large;
+}
+.fill3 input
+{
+  
+  position: absolute;
+  top: 72%;
+  left: 49%;
+  transform: translate(-50%,-50%);
+  font-size: xx-large;
+}
+/*OUTPUT PART */
+.fill4 label
+{
+  background-color:rgb(10, 167, 57);
+  border: 5px solid white;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  transform: translate(-50%,-50%);
+  font-size:x-large;
+}
+.fill4 input
+{
+  
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  font-size:xx-large;
+}
+/* BUTTON PART */
+.sub
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  text-align: center;
+}
+.sub button
+{
+  height: 40px;
+  width: 160px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px #999;
+}
+
+/* -------Code END------------*/
